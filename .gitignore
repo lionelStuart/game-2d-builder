@@ -1,0 +1,19 @@
+# Generated & temporary files
+builds/
+dist/
+*.tmp
+*.log
+
+# Engine-specific
+.godot/
+.project
+.idea/
+.vscode/
+
+# Saves
+saves/*
+!saves/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
