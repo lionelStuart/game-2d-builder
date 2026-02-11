@@ -3,13 +3,28 @@
 A lightweight, extensible 2D construction/simulation game project.
 
 ## 🚀 Getting Started
-- Engine: *(e.g., Godot 4.x / PyGame 2.6+ / Unity 2023 LTS)*
-- Run: `TODO: add engine-specific launch instructions`
+- Engine: **Godot 4.x**
+- Open: Import this folder as a Godot project (`project.godot`)
+- Run: Press `F5` (main scene: `src/scenes/main.tscn`)
+
+### Controls (Day 1 scaffold)
+- `W/A/S/D`: Move camera
+- Arrow keys: Pan camera
+- Mouse wheel: Zoom in/out
+
+### CLI Validation
+- Godot 4 headless smoke test:
+  - `/tmp/godot4/Godot_v4.2.2-stable_linux.x86_64 --headless --path . --quit-after 1`
+- Python unit test discovery:
+  - `python -m unittest discover -v`
+
+> Note: `godot3-server` is installed for compatibility checks, but this project targets **Godot 4** and should be run with a 4.x binary.
 
 ## 📁 Structure
-- `docs/`: Design notes, TODOs, lore drafts
-- `assets/`: All art, sound, fonts (organized by type)
-- `src/`: Game logic, scenes, utilities
+- `docs/`: Design notes, TODOs, planning logs
+- `assets/`: Art, sound, fonts, UI assets
+- `src/scenes/`: Godot scenes (`.tscn`)
+- `src/scripts/`: GDScript gameplay/system scripts
 - `saves/`: Local save files (ignored by Git)
 
-> 💡 Tip: Start with `docs/DESIGN_NOTES.md` to sketch your first building mechanic!# game-2d-builder
+> 💡 Tip: Start with `docs/DESIGN_NOTES.md` to sketch your first building mechanic!
