@@ -8,10 +8,15 @@
 - [x] Add camera movement and zoom controls in `src/scripts/main.gd` (direct key polling for compatibility)
 - [x] Update README with engine-specific launch instructions
 
-## Next (Day 2)
-- [ ] Grid coordinate snapping utility
-- [ ] Click-to-place building tile prototype
-- [ ] Placement occupancy check
+## Day 2 (Grid Placement Prototype)
+- [x] Grid coordinate snapping utility
+- [x] Click-to-place building tile prototype
+- [x] Placement occupancy check
+
+## Next (Day 3)
+- [ ] Add ghost preview validity styling refinement
+- [ ] Add rotate hotkeys (R)
+- [ ] Keep placement preview aligned while camera moves
 
 ## Validation Notes
 - Unit tests are executed after each implementation task (`python -m unittest discover -v`).

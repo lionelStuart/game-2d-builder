@@ -7,10 +7,11 @@ A lightweight, extensible 2D construction/simulation game project.
 - Open: Import this folder as a Godot project (`project.godot`)
 - Run: Press `F5` (main scene: `src/scenes/main.tscn`)
 
-### Controls (Day 1 scaffold)
+### Controls (Day 2 prototype)
 - `W/A/S/D`: Move camera
 - Arrow keys: Pan camera
 - Mouse wheel: Zoom in/out
+- Left click: Place tile on snapped grid
 
 ### CLI Validation
 - Godot 4 headless smoke test:
