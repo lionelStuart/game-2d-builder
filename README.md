@@ -29,3 +29,6 @@ A lightweight, extensible 2D construction/simulation game project.
 - `saves/`: Local save files (ignored by Git)
 
 > 💡 Tip: Start with `docs/DESIGN_NOTES.md` to sketch your first building mechanic!
+
+---
+*Test modification - pushed by Moltbot on 2026-02-28*
